@@ -11,8 +11,8 @@ import './App.css';
 //import RenderWithMap from './RenderWithMap/RenderWithMap';
 // import DemoProps from './Props/DemoProps';
 // import ProductList from './Props/ProductList';
-// import DemoXemChiTiet from './Props/DemoXemChiTiet/DemoXemChiTiet';
-import BaiTapReactBuoi2 from './BaiTapReactBuoi2/BaiTapReactBuoi2';
+ import DemoXemChiTiet from './Props/DemoXemChiTiet/DemoXemChiTiet';
+//import BaiTapReactBuoi2 from './BaiTapReactBuoi2/BaiTapReactBuoi2';
 function App() {
 
   const arrProduct = [
@@ -152,8 +152,8 @@ function App() {
       {/* <RenderWithMap /> */}
       {/* <DemoProps /> */}
       {/* <ProductList arrProduct={arrProduct} /> */}
-      {/* <DemoXemChiTiet /> */}
-      <BaiTapReactBuoi2 />
+      <DemoXemChiTiet />
+      {/* <BaiTapReactBuoi2 /> */}
     </div>
   );
 }
